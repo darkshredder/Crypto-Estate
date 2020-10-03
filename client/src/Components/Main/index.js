@@ -145,6 +145,7 @@ class Main extends Component {
   handleBuyOpen = () => {
     this.setState({
       buyLandModal: true,
+      sellLandPrice: this.state.activeMarkerPrice,
     });
   };
 
@@ -205,6 +206,9 @@ class Main extends Component {
               lat: this.state.addLandLat,
               lng: this.state.addLandLong,
             },
+            owner: this.state.addLandName,
+            price: this.state.addLandPrice,
+            forSale: true,
           },
         ],
         addLandModal: false,
@@ -226,6 +230,7 @@ class Main extends Component {
         from: accounts[0],
         value: parseInt(this.state.activeMarkerPrice),
       });
+    this.setState({ buyLandModal: false });
   };
 
   render() {
@@ -311,12 +316,15 @@ class Main extends Component {
                 position: "absolute",
                 backgroundColor: "white",
                 width: 300,
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
               }}
             >
-              <div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                }}
+              >
                 <TextField
                   required
                   id="addLandName"
@@ -368,12 +376,15 @@ class Main extends Component {
                 position: "absolute",
                 backgroundColor: "white",
                 width: 300,
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
               }}
             >
-              <div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                }}
+              >
                 <TextField
                   required
                   id="buyLandNewName"
