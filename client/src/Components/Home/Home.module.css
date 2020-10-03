@@ -1,0 +1,14 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.chart{
+    margin-top: 5%;
+    width: 50%;
+}
+.overview{
+    width: 50%;
+}
