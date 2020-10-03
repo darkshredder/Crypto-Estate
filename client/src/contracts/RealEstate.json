@@ -4631,10 +4631,16 @@
       "links": {},
       "address": "0xB2d5BD6498b7559726bb264E04614C50CaeA1e98",
       "transactionHash": "0x7ac6306b0139ea93fa68edd35ac01fcde72ddb407006b640b67bcd16fd1f3dcc"
+    },
+    "80001": {
+      "events": {},
+      "links": {},
+      "address": "0xCD5aEBa7Fb0e9F8C61111406434e30300429aFC7",
+      "transactionHash": "0x7f047c7a934a88d4b5c19d795f1b938c9274cc9f3f3417b67b3d295a1997f50b"
     }
   },
   "schemaVersion": "3.2.5",
-  "updatedAt": "2020-10-03T05:55:15.271Z",
+  "updatedAt": "2020-10-03T09:39:53.962Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
