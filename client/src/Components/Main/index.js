@@ -283,7 +283,7 @@ class Main extends Component {
                 </h3>
                 {this.state.activeMarkerForSale ? (
                   <div>
-                    <h3 style={{ margin: 0 }}>
+                    <h3 style={{ marginTop: 0.5 }}>
                       Price: {this.state.activeMarkerPrice} wei
                     </h3>
                     <div onClick={this.handleBuyOpen}>
@@ -383,6 +383,12 @@ class Main extends Component {
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
+
+                  marginLeft: 10,
+                  marginRight: 10,
+                  marginBottom: 15,
+                  borderRadius: 50,
+
                 }}
               >
                 <TextField
@@ -391,6 +397,7 @@ class Main extends Component {
                   label="New Name"
                   defaultValue=""
                   onChange={this.addLandValueChange}
+
                 />
                 <TextField
                   disabled
@@ -421,6 +428,7 @@ class Main extends Component {
                       inputProps={{ "aria-label": "primary checkbox" }}
                     />
                   }
+
                   label="Want to Sell Later?"
                 />
 
@@ -437,6 +445,10 @@ class Main extends Component {
                   variant="contained"
                   color="secondary"
                   onClick={this.buyLand}
+                  style={{
+                    width: 280,
+                    alignContent: "center",
+                  }}
                 >
                   Buy Land
                 </Button>
@@ -444,7 +456,7 @@ class Main extends Component {
             </div>
           </Modal>
         </div>
-      </div>
+      </div >
     );
   }
 }
