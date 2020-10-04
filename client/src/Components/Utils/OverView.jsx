@@ -4,10 +4,10 @@ export default class NavBar extends Component {
     render() {
         return (
             <div className={styles.container}>
-                <h3>
-                    What is Crpto Estate?
+                <h3 className={styles.overh}>
+                    What is Crpyto Estate?
             </h3>
-                <p>Crypto Estate is a first of it's kind block-chain based and IPFS-deployed solution to buying,<br></br>
+                <p className={styles.overp}>Crypto Estate is a first of it's kind block-chain based and IPFS-deployed solution to buying,<br></br>
                     selling and registering your real-estate property.<br></br>
                     We offer a visual overview of the properties which are for sale.<br></br>
                     Here only the smart contract owner can register their respective piece of land.<br></br>
