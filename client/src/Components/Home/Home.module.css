@@ -1,14 +1,22 @@
 .container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart {
+  margin-top: 5%;
+  width: 50%;
+}
+.overview {
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .container {
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
-}
-
-
-.chart{
-    margin-top: 5%;
-    width: 50%;
-}
-.overview{
-    width: 50%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
 }
