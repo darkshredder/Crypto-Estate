@@ -13,6 +13,7 @@ Crypto Estate is a Real Estate Buying/Selling based on Decentralised Ethereum an
 - Buyers can choose land directly ,Eliminating the need of brokers, goverment and thus reducing the cost.
 - Implemented Google Maps api thus eliminating the need of going through all random text of properties without location.
 - Added Portis support thus no need to go hassel process of metamask and all
+- This website is deployed on fleek with IPFS thus decentralised meaning the chamce of website going down is equivalent to internet going down.
 
 Our project uses Blockchain and Smart Etherum contracts to make sure each and every property is being stored peer to peer in a decentralized network with Hashing so that every property is secured.
 
@@ -35,6 +36,7 @@ Our project uses Blockchain and Smart Etherum contracts to make sure each and ev
  Metamask (Development)
  Material UI
  Chartjs
+ Fleek(Deployment on IPFS)
 ```
 
 ## Installation
